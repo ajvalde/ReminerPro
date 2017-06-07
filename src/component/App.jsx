@@ -12,7 +12,7 @@ class App extends Component {
     }
 
     addReminder() {
-         console.log('this.state', this.state)
+         this.props.addReminder(this.state.text);
     }
 
     render() {
